@@ -36,7 +36,7 @@ async function resizeImage(inSvg, i) {
   // ];
 const seeds = [] // empty Object
 
-for(let i=0; i<10; i++) {  
+for(let i=0; i<1000; i++) {  
   console.log(i)
   const seed = getRandomNounSeed()
   const { parts, background } = getNounData(seed);
